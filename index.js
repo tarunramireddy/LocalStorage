@@ -1,7 +1,7 @@
 let saveButton = document.getElementById("saveBtn");
 let textAreaElement = document.getElementById("textplacement");
 
-saveBtn.onclick = function(){
+saveButton.onclick = function(){
     let userEnteredText = textAreaElement.value;
     localStorage.setItem("userEnteredText", userEnteredText);
 }
